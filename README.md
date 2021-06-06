@@ -1,1 +1,6 @@
 # Lab 10
+## Part 1:
+https://cse110-lab10-tqt001.canny.io/
+
+## Part 2:
+I changed the background color to black on the double-columns
