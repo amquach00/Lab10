@@ -49,13 +49,12 @@
       client.on(client.Event.SDK_READY, function () {
         var treatment = client.getTreatment('split');
         if (treatment === 'on') {
-          document.getElementsByTagName("main")[0].className = "double-column"
+          document.body.style.backgroundColor = "black"
         } else if (treatment === 'off') {
           document.getElementsByTagName("main")[0].className = "single-column"
         } else {
-          document.getElementsByTagName("main")[0].className = "double-column"
+          document.body.style.backgroundColor = "black"
         }
-        
       });
     })();
   </script>
